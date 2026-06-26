@@ -25,7 +25,7 @@ clap = "4.5.4"
 dirs = "5.0.1"
 dotenvy = "0.15.7"
 educe = { version = "0.6.0", default-features = false }
-eframe = "0.31.0"
+eframe = "0.34.0"
 error-fatality = "0.1.2"
 fallible-iterator = "0.3.0"
 fips205 = "0.4.1"
@@ -88,12 +88,12 @@ uuid = "1.13.1"
 [workspace.dependencies.bip300301_enforcer_lib]
 default-features = false
 git = "https://github.com/LayerTwo-Labs/bip300301_enforcer"
-rev = "a4197ad2ae9d35252d12008ff616bce710b647d2"
+rev = "1100b6085d9ed64eeaf1b57b3c44609626bd4b23"
 
 [workspace.dependencies.bip300301_enforcer_integration_tests]
 default-features = false
 git = "https://github.com/LayerTwo-Labs/bip300301_enforcer"
-rev = "a4197ad2ae9d35252d12008ff616bce710b647d2"
+rev = "1100b6085d9ed64eeaf1b57b3c44609626bd4b23"
 
 [workspace.dependencies.l2l-openapi]
 git = "https://github.com/Ash-L2L/l2l-openapi"
